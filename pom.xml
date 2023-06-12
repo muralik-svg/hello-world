@@ -22,13 +22,13 @@
   </modules>
 
   <distributionManagement>
-           <repositories>
+           
 		<repository>
 		      <id>nexus</id>
 		      <name>Group Repository - Ganesh Software Solutions</name>
 		      <url>http://54.172.66.234:8081/repository/First_Service/</url>
 	      </repository> 
-	</repositories>
+	
     <site>
       <id>site-server</id>
       <name>Test Project Site</name>
