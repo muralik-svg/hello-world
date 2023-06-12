@@ -6,7 +6,7 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
@@ -22,12 +22,11 @@
   </modules>
 
   <distributionManagement>
-           
 		<repository>
 		      <id>nexus</id>
 		      <name>Group Repository - Ganesh Software Solutions</name>
-		      <url>http://54.172.66.234:8081/repository/First_Service/</url>
-	      </repository> 
+		      <url>http://54.172.66.234:8081/repository/First_Service</url>
+	      	</repository>
 	
     <site>
       <id>site-server</id>
